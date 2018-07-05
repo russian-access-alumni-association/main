@@ -1,0 +1,148 @@
+body {
+	position: relative;
+}
+
+.fake-nav {
+	height: 15px;
+}
+
+.intro-header {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 40px;
+	height: 400px;
+}
+
+.intro-header-background {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 400px;
+	background-image: url("../img/header-bg.jpg");
+	background-position: center;
+	filter: blur(3px);
+	-webkit-filter: blur(3px);
+	-moz-filter: blur(3px);
+	-ms-filter: blur(3px);
+	-o-filter: blur(3px);
+	filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
+}
+
+.intro-header-attribution {
+	left: 100%;
+    margin-left: -10px;
+    position: absolute;
+    transform: rotate(-90deg);
+    transform-origin: left center 0;
+    top: 400px;
+    width: 400px;
+    color: #fff;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.intro-header-attribution > a{
+	color: #eee;
+	text-decoration: underline;
+}
+
+.intro-header > h2 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 7px 10px 5px 10px;
+	background-color: rgba(60, 8, 180, 0.7);
+	z-index: 2;
+	font-weight: 700;
+	color: #fff;
+}
+
+.intro-header > h2 > small {
+	color: #ccc;
+}
+
+.nav-right {
+	font-size: 12px;
+}
+
+.nav-right > ul {
+    list-style: outside none none;
+    padding-right: 20px;
+    padding-left: 0px;
+}
+
+.nav-right > ul > li {
+	padding: 0px;
+	margin: 0px;
+}
+
+.nav-right > ul > li > a {
+	display: block;
+	padding: 3px 0px 3px 12px;
+	text-decoration: none;
+}
+
+.nav-right > ul > li > a:hover {
+	border-left: solid 1px #280678;
+	padding-left: 9px;
+}
+
+.nav-right > ul > li.active > a {
+	border-left: solid 2px #280678;
+	padding-left: 10px;
+	font-weight: 700;
+}
+
+.nav-right > ul > li > a.herolink {
+	color: #f33;
+	border-color: #780628;
+}
+
+
+.article {
+	font-size: 18px;
+	line-height: 1.7em;
+}
+
+.glyphicon {
+    font-size: 12px;
+}
+
+.bs-callout {
+	font-size: 16px;
+	line-height: 1.3em;
+}
+
+.bs-callout.bs-callout-danger {
+	font-size: inherit;
+}
+
+h3 {
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
+.end-sequence {
+	font-size: 20px;
+	padding-top: 20px;
+	margin-bottom: 120px;
+}
+
+.social-block {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: center;
+}
+
+.affix {
+	top: 60px;
+}
+
+.player-hidden {
+	width: 1px;
+	height: 1px;
+}

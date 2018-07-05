@@ -1,0 +1,57 @@
+.main-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	line-height: 2em;
+}
+
+a {
+	color: #440ACC;
+}
+
+a:hover {
+	color: #8B59FF;
+}
+
+a:active {
+	color: #452D7F;
+}
+
+a:visited {
+	color: #550DFF;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+    padding: 0px 15px 0px 15px;
+    color: #280678;
+}
+
+.subtitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 0px 15px 0px 15px;
+}
+
+.centered-title {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 8px;
+    margin-bottom: 2px;
+    line-height: 1.2em;
+}
+
+.centered-subtitle {
+	margin-bottom: 20px;
+}
+
+.social-disclaimer {
+	font-family: 'Roboto', sans-serif;
+}
